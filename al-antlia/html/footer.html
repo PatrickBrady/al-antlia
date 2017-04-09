@@ -1,0 +1,41 @@
+<!-- bootstrap scripts -->
+<script type="text/javascript" src="http://fmg-websites-custom.s3.amazonaws.com/fmg-base/fmg-base-js/bootstrap.min.js"></script>
+
+<!-- custom scripts-->
+<script defer="defer" type="text/javascript" src="http://fmg-websites-custom.s3.amazonaws.com/fmg-base/fmg-base-js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
+<script type="text/javascript" src="http://fmg-websites-custom.s3.amazonaws.com/fmg-base/fmg-base-js/fadeM.min.js"></script>
+<script type="text/javascript" src="http://fmg-websites-custom.s3.amazonaws.com/fmg-base/fmg-base-js/fmg-base-template-offcanvas.js"></script>
+
+<script type="text/javascript" src="http://fmg-websites-custom.s3.amazonaws.com/alp-themes/al-antlia/js/al-antlia.js"></script>
+<!-- google font scripts -->
+<script type="text/javascript">
+WebFontConfig = {
+    google: {
+        families: ['PT+Sans:400,700:latin']
+    }
+};
+(function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+})();
+
+$(document).ready(function(){
+  $("section.social-media").appendTo("nav#main .container .row").addClass("col-sm-2 soc");
+  $("section.header-phone").addClass("col-md-8").insertAfter(".moonlight-header-logo");
+  $(".moonlight-header-logo").removeClass("col-sm-12 col-md-3").addClass("col-md-4");
+  $("section.header-phone p a").wrap('<span class="btn header-btn"></span>');
+  $('<a href="https://antlia-alpad-co.advisorlaunchpad.io/account-access/?cmsMode=Preview" class="btn header-btn"><i class="fa fa-lock"></i>Account Access</a>').prependTo("section.header-phone");
+  $('.login.pull-right').parent().parent().remove();
+  $('div.antlia-welcome').parent().parent().parent().addClass('main home-content');
+  $("div.antlia-featured-cols").closest("section.section_FullWidth").addClass("featured");
+  $('<div class="divider"></div>').insertBefore("div.footer-container");
+});
+
+
+</script>

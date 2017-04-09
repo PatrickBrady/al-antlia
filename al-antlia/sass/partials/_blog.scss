@@ -1,0 +1,234 @@
+/**
+ * { Blog Design } *
+ */
+
+h1#ctl00_PageContent_ctl00_ContentTitle {
+  font-size: 46px;
+  font-family: $font-2;
+  color: $color-3;
+  line-height: 1.109;
+}
+
+
+div.blog-header {
+  background: transparent;
+  border-bottom: none;
+  color: $color-3;
+  font-size: 26px;
+  font-family: $font-2;
+  text-transform: uppercase;
+  padding-left: 0px;
+}
+
+#ctl00_PageContent_ctl00_ctl00_uxBlogPostHeaderWrapper p,
+div.blog-post-teaser{
+  font-size: 16px;
+  font-family: $font-1;
+  color: $color-16;
+}
+
+div.blog-post-header {
+    font-size: 16px;
+    font-family: "Roboto" sans-serif;
+    color: $color-7;
+}
+
+div.blog-post-head h3 {
+  font-size: 24px;
+  font-family: $font-2;
+  color: $color-3;
+  background: transparent;
+  border-bottom: none;
+}
+
+div.blog-post-teaser {
+  font-size: 16px;
+  font-family: $font-1;
+  border-bottom: 1px solid $color-12;
+  padding-bottom: 20px;
+}
+
+
+.blog-post-teaser .timestamp {
+  font-size: 16px;
+  color: $color-7;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.blog-post-teaser .btn.readmore {
+  background-color: $color-7;
+  color: $color-lt;
+  padding: 8px 32px;
+  text-transform: uppercase;
+}
+
+.blog-post-teaser .btn.readmore:hover,
+.blog-post-teaser .btn.readmore:active,
+div#subscribe:hover,
+div#subscribe:active,
+a.blog-rss:hover,
+a.blog-rss:active {
+  opacity: 0.6;
+}
+
+a.blog-return-main {
+    background: $color-7;
+    border-color: $color-7;
+}
+
+a.blog-return-main:hover,
+a.blog-return-main:active
+{
+    opacity: 0.6;
+    background: $color-7;
+    border-color: $color-7;
+}
+
+nav {
+  background-color: transparent;
+}
+
+div#subscribeForm,
+div#ctl00_PageContent_ctl00_ctl00_uxBlogRecentWrapper,
+div#ctl00_PageContent_ctl00_ctl00_uxBlogCategoriesWrapper {
+  background: $color-17;
+}
+
+#subscribeForm .well {
+  margin-bottom: 0px;
+  border-bottom: none;
+  border-radius: 0px;
+  background: $color-12;
+  padding-bottom: 60px;
+}
+
+#subscribeForm h4, li.nav-header {
+  color:$color-3;
+  font-family: $font-1;
+  font-size: 24px;
+}
+
+#subscribeForm input {
+  border-radius: 0px;
+  border-color: $color-7;
+  margin-bottom: 10px;
+}
+
+div#subscribe {
+  background: $color-7;
+  border-color: $color-7;
+  text-transform: uppercase;
+  border-radius: 0px;
+  width: 100%;
+}
+
+ul.nav-tabs {
+  border-bottom: none;
+  background-color: $color-12;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+ul.nav-tabs li:not(:first-child) {
+  border: 1px solid $color-7;
+  margin-top: 0px;
+  background: $color-lt;
+}
+
+ul.nav-tabs li a{
+  color: $color-18;
+}
+
+ul.nav-tabs li a:hover{
+  background: $color-13;
+}
+
+.nav-tabs>li>a {
+  border: none;
+  border-radius: 0px;
+  margin-right: 0px;
+}
+
+div#ctl00_PageContent_ctl00_ctl00_uxBlogRSSWrapper {
+  background: $color-12;
+  border-right: 15px solid $color-17;
+  border-left: 15px solid $color-17;
+  padding-bottom: 20px;
+}
+
+a.blog-rss {
+  color:$color-3;
+  font-family: $font-1;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#ctl00_PageContent_ctl00_ctl00_uxBlogRSSWrapper a:after {
+    content: "\f09e";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    float: right;
+    font-size: 32px;
+    margin-top: -5px;
+    color: $color-7;
+}
+
+.pagination>li>a,
+.pagination>li>span,
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-right:5px;
+}
+
+.pagination li {
+    padding: 0;
+    margin: 0 5px 0 0;
+    border-bottom: none;
+    font-size: 14px;
+    display: inline-block;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.pagination>.disabled>span,
+.pagination>.disabled>span:hover,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>a,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>a:focus,
+.pagination>li>a,
+.pagination>li>span {
+    background-color: $color-12;
+}
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+    background-color: $color-7;
+    color: $color-lt;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: $color-7;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: $color-3;
+    border-color: $color-3;
+}

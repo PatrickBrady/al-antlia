@@ -1,0 +1,139 @@
+// =============  HOME ====================
+.homepage #content section.main.home-content {
+    background:$color-6;
+	color: $color-lt;
+}
+.main.home-content{
+	padding-bottom: 100px;
+	background:$color-6;
+	color: $color-lt;
+	h3, h4, h5, h6{
+		color:$color-13;
+	}
+	p{
+		@include rem(font-size,16px);
+	}
+
+	.intro {
+	}
+}
+
+
+
+.panels{
+	//background:#fff;
+	background:none;
+	padding:0;
+	div[class^="col-"] {
+		height:124px;
+		display:table-cell;
+		h1,h2,h3,
+		h4,h5,h6{
+			font-family: $font-1;
+		}
+		h2{
+			@include rem(font-size, 19px);
+			@include rem(margin-top, 10px);
+		}
+	}
+	.row{
+		//@extend %flexbox-container;
+		display:table;
+		border-bottom:2px solid $color-6;
+		padding:0;
+		img{
+			//height:100%;
+			//position:absolute;
+			//left:0;
+			//top:0;
+			//width:30%;
+			//object-fit:cover;
+		}
+		.col-sm-4,
+		.col-sm-8{
+			display:table-cell;
+		}
+		.col-sm-4,
+		.col-md-4{
+			padding:0;
+			overflow:hidden;
+			img{
+				object-fit:cover;
+				}
+			}
+		}
+	.txt{
+		background:$color-lt;
+		color:$color-drk;
+		p{
+			@include rem(font-size, 14px);
+		}
+
+	}
+}
+.featured {
+	background:$color-12;
+	padding-bottom:25px;
+	.featured-cols > .col-md-4{
+		padding-bottom:10px;
+		&:hover{
+			background:lighten($color-12, 20%);
+		}
+	}
+	.featured-cols:not(:last-child){
+		&:after{
+			content: ' ';
+			display:block;
+			height:1px;
+			width:98%;
+			padding-top:27px;
+			border-bottom:1px solid $color-drk;
+			margin:20px auto;
+		}
+	}
+	h1,h2,h3,
+	h4,h5,h6{
+		color:$color-3;
+		font-family:$font-1;
+	}
+	h3 > i.fa {
+	display: block;
+	font-size: 36px;
+	color:$color-7;
+	margin-bottom:3px;
+	}
+}
+.no-gutters > text{
+	padding:10px 60px 50px;
+}
+.learn-more{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	ul{
+		@include horizontal-list;
+		color:$color-lt;
+		list-item-style:none;
+		li{
+			background:$color-8;
+			padding:20px;
+			 i{
+				background:$color-9;
+				border-right:2px solid $color-lt;
+			}
+			a{
+				display:inline-block;
+				color:$color-lt;
+			}
+		}
+	}
+}
+// ============================ INSIDE =======================
+
+.inside-banner{
+	height:270px;
+	background:$color-15 url(../img/header-inside@1x.png) no-repeat left top;
+	background-position:50% 50%;
+	background-size:cover;
+}

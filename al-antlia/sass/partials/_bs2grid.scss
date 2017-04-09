@@ -1,0 +1,123 @@
+/**
+ * { Backwards compatible BOOTSTRAP v2 GRID for v3 sites } *
+ */
+
+/* row-fluid > row */
+.row-fluid {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row-fluid.video-list {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+    content: " ";
+    display: table;
+}
+.row-fluid:after {
+    clear: both;
+}
+
+/* span[x] > col-[size]-[x] */
+.span1, .span2, .span3, .span4, .span5, .span6,
+.span7, .span8, .span9, .span10, .span11, .span12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/**
+ * .col-xs-[x]: no media query
+ * .col-sm-[x]: min-width: 768px
+ * .col-md-[x]: min-width: 992px
+ * .col-lg-[x]: min-width: 1200px
+ */
+@media (min-width: 768px) {
+    .span1, .span2, .span3, .span4, .span5, .span6,
+    .span7, .span8, .span9, .span10, .span11, .span12 {
+        float: left;
+    }
+    .span12 {
+        width: 100%;
+    }
+    .span11 {
+        width: 91.66666667%;
+    }
+    .span10 {
+        width: 83.33333333%;
+    }
+    .span9 {
+        width: 75%;
+    }
+    .span8 {
+        width: 66.66666667%;
+    }
+    .span7 {
+        width: 58.33333333%;
+    }
+    .span6 {
+        width: 50%;
+    }
+    .span5 {
+        width: 41.66666667%;
+    }
+    .span4 {
+        width: 33.33333333%;
+    }
+    .span3 {
+        width: 25%;
+    }
+    .span2 {
+        width: 16.66666667%;
+    }
+    .span1 {
+        width: 8.33333333%;
+    }
+
+    /* offset[x] > col-[size]-offset-[x] */
+    .offset12 {
+        margin-left: 100%;
+    }
+    .offset11 {
+        margin-left: 91.66666667%;
+    }
+    .offset10 {
+        margin-left: 83.33333333%;
+    }
+    .offset9 {
+        margin-left: 75%;
+    }
+    .offset8 {
+        margin-left: 66.66666667%;
+    }
+    .offset7 {
+        margin-left: 58.33333333%;
+    }
+    .offset6 {
+        margin-left: 50%;
+    }
+    .offset5 {
+        margin-left: 41.66666667%;
+    }
+    .offset4 {
+        margin-left: 33.33333333%;
+    }
+    .offset3 {
+        margin-left: 25%;
+    }
+    .offset2 {
+        margin-left: 16.66666667%;
+    }
+    .offset1 {
+        margin-left: 8.33333333%;
+    }
+    .offset0 {
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,57 @@
+html{
+	font-size:100%;
+}
+html,body{
+	font-family:$font-1;
+}
+h1:not(.welcome-head){	
+	text-align:center;
+	position:relative;
+	&::after{
+		content: ' ';
+		//postion:absolute;
+		display:block;
+		margin:40px auto 70px;
+		width:100px;
+		height:15px;
+		background:$color-13;
+	}
+	@include rem(font-size,46px);
+	@include rem(line-height,51px);	
+}
+h1,h2{
+	font-family:$font-2;
+}
+h3,h4,h5,h6{
+	font-family:$font-1;
+}
+.main .container{
+	//padding-bottom:50px;
+}
+.main + .footer{
+	margin-top:100px;
+}
+.flexbox-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+%flexbox-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+

@@ -1,0 +1,97 @@
+$color-lt: 					#fff;
+$color-drk:					#373737;
+
+//BLUE
+$drk-blue:					rgba(8,55,92,1); 		//dark blue text header
+$drk-blue-2:				rgba(25,37,55,1);		//photo border blue
+$drk-blue-3:				rgba(55,105,146,1);		//darker blue text and header color featured cols
+$drk-blue-4:				rgba(12,29,46,1);		//footer dark blue
+$drk-blue-5:				rgba(23,47,72,1);		//footer blue lighter
+$drk-blue-6:                rgba(32,71,104,1);      // bg blog sidebar
+$med-blue:					rgba(3,125,171,1);		//medium blue for middle section
+$med-blue-2:				rgba(26,158,207,1);		//med blue text med blue icons for featured coles
+$lt-blue:					rgba(204,225,241,1);	//light blue button border
+$blue-divider-bg:			rgba(6,20,43,1);		//bg color for footer divider
+
+
+
+//GRAY
+$gray-1:					rgba(220,222,223,1);	//nav bar gray
+$gray-2:					rgba(254,254,254,1);	//footer text gray -left
+$gray-3:					rgba(210,209,209,1);	//footer text gray -right
+$gray-4:					rgba(245,246,247,1);	//gray back middle section
+$gray-5:					rgba(43,43,43,1);		//dark gray for soc media icons
+$gray-6:                    rgba(120,120,120,1);    //mid gray - blog teaser text
+$gray-7:                    rgba(51,51,51,1);       //dark gray blog nav tab link
+
+
+//YELLOW
+$yellow-1:					rgba(248,189,0,1);		//yellow border fig
+
+
+$color-1:					$drk-blue;				//dark blue text header
+$color-2:					$drk-blue-2;			//photo border blue
+$color-3:					$drk-blue-3;			//darker blue text and header color featured cols
+$color-4:					$drk-blue-4;			//footer dark blue
+$color-5:					$drk-blue-5;			//footer blue lighter
+$color-6:					$med-blue;				//medium blue for middle section
+$color-7:					$med-blue-2;			//med blue text med blue icons for featured coles
+$color-8:					$lt-blue;				//light blue button border
+$color-9: 					$gray-1;				//nav bar gray
+$color-10:					$gray-2;				//footer text gray -left
+$color-11:					$gray-3;				//footer text gray -right
+$color-12:					$gray-4;				//gray back middle section
+$color-13:					$yellow-1;				//yellow border fig
+$color-14:					$gray-5;				//dark gray for soc media icons
+$color-15:					$blue-divider-bg;		//bg color for footer divider
+$color-16:                  $gray-6;                //mid gray - blog teaser text
+$color-17:                  $drk-blue-6;            //bg blog sidebar
+$color-18:                  $gray-7;                //dark gray blog nav tab link
+
+
+$header-bg: $color-lt;
+$header-font-color:$color-1;
+$header-border:$color-8;
+$header-secondary:$color-13; // for icons
+
+// NAV
+$nav-bg:$color-9 ;
+$nav-font-color:$color-2;
+$nav-secondary:$color-14;
+
+//HERO
+$hero-bg:$color-1;
+$hero-font-color:$color-lt;
+$hero-secondary:$color-13;
+$hero-border-color:$color-2;
+
+//WELCOME
+$welcome-bg:$color-6;
+$welcome-secondary:$color-13;
+$welcome-font-color:$color-lt;
+
+//SERVICES
+$services-bg:$color-12;
+$services-secondary:$color-13;
+$services-font-color:$color-3;
+$services-icon-color:$color-7;
+
+
+//FOOTER
+$footer-bg:$color-5;
+$footer-font-color:$color-lt;
+$footer-link-color:$color-13;
+
+//FONTS
+$latos:	'Lato', sans-serif;
+$pt:	'PT Serif Caption', PTSerif, serif;
+
+$font-1:	$latos;
+$font-2:	$pt;
+
+
+
+
+
+
+

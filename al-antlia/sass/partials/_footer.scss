@@ -1,0 +1,53 @@
+//put soc styles inside of footer. soc is also inside header. global sco style can go in base
+.divider{
+	height:232px;
+	background:$color-15 url(http://fmg-websites-custom.s3.amazonaws.com/alp-themes/al-antlia/images/divider%401x.png) no-repeat left top;
+	margin-bottom:0;
+}
+div.footer-container{
+	footer{
+		background:$footer-bg;
+		color:$color-11;
+		font-family:$font-1;
+		@include rem(font-size, 18px);
+		padding-bottom:30px;
+		.socialMedia a{
+			//font-size:1.9375rem;
+			color:$footer-font-color;
+			font-size:31px !important;
+			&.facebook,
+			&.twitter,
+			&.linkedin {
+			    background: none;
+			    //padding: 2px 0 0 4px;
+			}
+		}
+	}
+	
+	
+	a{
+		color:$color-13;
+	}
+	.soc{
+		a{
+			color:$color-11;
+			@include rem(font-size, 31px);
+			padding-right:10px;
+			&:hover{
+				color:$color-lt;
+			}
+		}
+	}
+}
+address{
+	.address1,
+	.address2{
+		display:block;
+	}
+	.address-comma{
+		display:none;
+	}
+}
+.footer-fax{
+	display:block;
+}

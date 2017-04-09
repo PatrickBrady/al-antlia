@@ -1,0 +1,36 @@
+.top-bar{display:none;}
+header.header{
+	padding:0;
+	.row{
+		@extend %flexbox-container;
+	}
+	.site-logo{
+		margin:30px 20px 20px;
+	}
+	
+}
+
+.header-btn{
+	@include border-radius(7px);
+	border:1px solid $color-8;
+	font:20px $font-1;
+	color:$color-1;
+	float:right;
+	margin-left:15px;
+	padding:12px;
+	i{
+		color:$color-13;
+		margin-right:10px;
+	}
+}
+
+//font-size: 20px;
+//font-weight: 400;
+//line-height: 24px;
+//font-family: FontAwesome;
+//color: #eea312;
+//font-size: 20px;
+//font-weight: 400;
+//line-height: 24px;
+//color: #eea312;
+//font-family: Lato;

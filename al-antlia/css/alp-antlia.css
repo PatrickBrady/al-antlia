@@ -1,0 +1,1746 @@
+/* line 1, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 4, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 7, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+h1:not(.welcome-head) {
+  text-align: center;
+  position: relative;
+  font-size: 46px;
+  font-size: 2.875rem;
+  line-height: 51px;
+  line-height: 3.1875rem;
+}
+/* line 10, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+h1:not(.welcome-head)::after {
+  content: ' ';
+  display: block;
+  margin: 40px auto 70px;
+  width: 100px;
+  height: 15px;
+  background: #f8bd00;
+}
+
+/* line 22, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+h1, h2 {
+  font-family: "PT Serif Caption", PTSerif, serif;
+}
+
+/* line 25, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 31, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+.main + .footer {
+  margin-top: 100px;
+}
+
+/* line 34, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+.flexbox-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+/* line 45, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_base.scss */
+header.header .row, nav .row {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  main.css [framework]
+/*-----------------------------------------------------------------------------------*/
+/* Base styles: global defaults
+============================================================================= */
+/* Ektron Overrides */
+/* line 8, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+#aspnetForm {
+  margin: 0;
+}
+
+/* line 9, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.design_view_button {
+  display: none;
+}
+
+/* line 10, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.design_content {
+  padding: 0px !important;
+  background-color: transparent !important;
+  overflow: hidden !important;
+}
+
+/* line 11, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+#uxPreviewExit {
+  display: none !important;
+}
+
+/* ### Ektron Page Builder Edit Mode ### */
+/* line 14, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.pageBuilderEditMode .hero-buttons {
+  top: 0 !important;
+}
+
+/* line 15, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.pageBuilderEditMode .hero-buttons:after {
+  margin-bottom: 0 !important;
+}
+
+/* forms */
+/* line 18, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.form-horizontal label {
+  display: inline-block !important;
+}
+
+/* line 19, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.design_textfield.form-control {
+  width: 100% !important;
+  height: 34px !important;
+}
+
+/* line 20, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.design_textfield.input-lg {
+  height: 46px !important;
+}
+
+/* line 21, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.design_textfield.input-sm {
+  height: 30px !important;
+}
+
+/* line 23, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 27, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 31, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 35, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+/* line 36, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 37, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* Link Styles
+================================================== */
+/* line 41, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+a.btn, a.btn:hover {
+  text-decoration: none;
+}
+
+/* line 42, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+p a, p a:visited {
+  line-height: inherit;
+}
+
+/* line 43, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+h2 a:hover, h3 a:hover {
+  text-decoration: none;
+}
+
+/* line 44, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+a img {
+  border: none;
+  text-decoration: none;
+}
+
+/* line 45, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+a:hover, a:active, a, object, embed, *:focus {
+  -moz-outline-style: none;
+  outline: none !important;
+}
+
+/* line 46, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* List Resets & Custom Lists
+================================================== */
+/* line 50, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+ul + p, ol + p {
+  margin-top: 2%;
+}
+
+/* Ektron List Item Fix */
+/* line 53, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+li.PBItem {
+  line-height: inherit;
+}
+
+/* line 54, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+li.PBItem ul li {
+  list-style-type: disc;
+}
+
+/* line 55, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+li.PBItem ul ul li {
+  list-style-type: circle;
+}
+
+/* line 56, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+li.PBItem ul ul ul li {
+  list-style-type: square;
+}
+
+/* line 58, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.widgetBody li {
+  list-style-type: disc;
+}
+
+/* line 59, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.widgetBody ul ul li {
+  list-style-type: circle;
+}
+
+/* line 60, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.widgetBody ul ul ul li {
+  list-style-type: square;
+}
+
+/* line 62, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+ul.square li {
+  list-style-type: square;
+}
+
+/* line 63, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+ul.circle li {
+  list-style-type: disc;
+}
+
+/* line 65, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+ul.arrow-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+/* line 66, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+ul.arrow-list li:before {
+  content: "\00BB";
+  padding-right: 4px;
+  color: #12668a;
+}
+
+/* ## PAGE SPECIFIC STYLES ## */
+/* Team
+============================================================================= */
+/* line 77, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member {
+  padding: 20px 0;
+}
+
+/* line 78, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+h1 + .team-member {
+  padding-top: 0;
+}
+
+/* line 80, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member h2 {
+  font-size: 28px;
+  line-height: 1.333;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+/* line 86, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member h4 {
+  color: #999;
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+  padding: 0;
+}
+
+/* line 92, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member .photo {
+  text-align: right;
+}
+
+/* line 95, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member .photo i {
+  margin-left: 5px;
+}
+
+/* line 98, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member .photo img {
+  margin: 6px 0 20px 0;
+  border: 1px solid #ccc;
+}
+
+/* line 102, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member .photo ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* line 106, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.team-member .photo li {
+  text-align: right;
+  font-size: 12px;
+}
+
+/* ## OVERRIDES AND HELPERS ## */
+/* Bootstrap Overrides
+============================================================================= */
+/*  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+================================================== */
+/* line 118, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+/* line 123, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+/* line 127, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+/* line 134, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+/* line 139, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+  /* line 148, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* line 154, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* line 160, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* No Gutter Column Trick
+================================================== */
+/* line 172, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 176, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.row.no-gutters [class^="col-"],
+.row.no-gutters [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Helper Classes
+============================================================================= */
+/* line 183, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 184, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.normal {
+  font-weight: normal;
+}
+
+/* line 186, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.left {
+  text-align: left;
+}
+
+/* line 187, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.right {
+  text-align: right;
+}
+
+/* line 189, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+img.align-center,
+img.aligncenter {
+  display: block;
+  margin: 0 auto 2% auto;
+}
+
+/* line 194, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+img.align-right,
+img.alignright {
+  float: right;
+  margin: 0.5% 0 1% 2%;
+}
+
+/* line 199, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+img.align-left,
+img.alignleft {
+  float: left;
+  margin: 0.5% 2% 1% 0;
+}
+
+/* line 204, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+img.add-margin-bottom {
+  margin-bottom: 20px;
+}
+
+/* line 207, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+img.add-margin-top {
+  margin-top: 20px;
+}
+
+/* line 211, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.m20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 212, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.mtop20 {
+  margin-top: 20px;
+}
+
+/* line 213, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.mbot20 {
+  margin-bottom: 20px;
+}
+
+/* line 214, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.mbot40 {
+  margin-bottom: 40px;
+}
+
+/* line 216, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.p20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 217, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.ptop20 {
+  padding-top: 20px;
+}
+
+/* line 218, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.pbot20 {
+  padding-bottom: 20px;
+}
+
+/* line 220, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.clickable {
+  cursor: pointer;
+}
+
+/* line 222, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+.shadow {
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+}
+
+/* line 227, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+iframe[seamless] {
+  display: block;
+}
+
+/* line 228, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+iframe[seamless].centered,
+iframe[seamless].center,
+iframe[seamless].align-center,
+iframe[seamless].aligncenter {
+  margin: 0 auto;
+}
+
+/* ## RESPONSIVE/RETINA MEDIA QUERIES ## */
+/* Responsive Media Queries
+============================================================================= */
+/* Small Devices, Tablets
+=========================================================== */
+@media only screen and (max-width: 768px) {
+  /* line 242, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .team-member .photo {
+    text-align: left;
+  }
+
+  /* line 243, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .team-member .photo img {
+    margin-top: 0;
+  }
+
+  /* line 244, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .team-member .photo li {
+    text-align: left;
+  }
+}
+/* Extra Small Devices, Phones
+=========================================================== */
+@media only screen and (max-width: 480px) {
+  /* line 250, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .team-member h2 {
+    font-size: 20px;
+  }
+
+  /* line 251, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_main.scss */
+  .team-member h4 {
+    font-size: 16px;
+    margin: 0px 0 10px 0;
+  }
+}
+/* ##  END: RESPONSIVE MEDIA QUERIES ## */
+/* line 1, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_head.scss */
+.top-bar {
+  display: none;
+}
+
+/* line 2, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_head.scss */
+header.header {
+  padding: 0;
+}
+/* line 7, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_head.scss */
+header.header .site-logo {
+  margin: 30px 20px 20px;
+}
+
+/* line 13, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_head.scss */
+.header-btn {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  border: 1px solid #cce1f1;
+  font: 20px "Lato", sans-serif;
+  color: #08375c;
+  float: right;
+  margin-left: 15px;
+  padding: 12px;
+}
+/* line 21, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_head.scss */
+.header-btn i {
+  color: #f8bd00;
+  margin-right: 10px;
+}
+
+/* line 1, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav#main {
+  background-color: #dcdedf;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+/* line 6, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav#main .container ul li a {
+  font-size: 1.1em;
+  padding: 15px 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #192537;
+}
+/* line 13, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav#main > .container {
+  width: inherit;
+  max-width: 1170px;
+  display: block;
+  position: relative;
+  top: 0;
+}
+
+/* line 22, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav {
+  background-color: #dcdedf;
+}
+/* line 24, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .sf-menu {
+  font-family: PTSerif;
+  color: #08375c;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 29, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .sf-menu > li {
+  display: inline-block;
+}
+/* line 32, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .sf-menu > li:hover a {
+  background: #fff;
+  color: #0c538b;
+}
+/* line 37, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .sf-menu > li > a {
+  padding: 15px 40px;
+  color: #08375c;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 49, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .row .soc {
+  text-align: right;
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 52, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+nav .row .soc a {
+  color: #2b2b2b;
+  padding: 0 7px;
+}
+
+/* line 59, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.menu {
+  background-color: #dcdedf;
+}
+
+/* Site Navigation
+============================================================================= */
+/* Superfish
+================================================== */
+/* line 68, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 74, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu li {
+  position: relative;
+}
+
+/* line 77, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu ul {
+  position: absolute;
+  background: #fff;
+  min-width: 12em;
+  -moz-box-shadow: 2px 2px 2px rgba(43, 43, 43, 0.3);
+  -webkit-box-shadow: 2px 2px 2px rgba(43, 43, 43, 0.3);
+  box-shadow: 2px 2px 2px rgba(43, 43, 43, 0.3);
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+/* line 86, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu ul > li {
+  border-bottom: 1px solid #f5f6f7;
+  border-right: 1px solid #f5f6f7;
+  border-left: 1px solid #f5f6f7;
+  background: #fff;
+}
+/* line 93, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu ul > li:hover a {
+  background: #e6e6e6;
+}
+/* line 97, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu ul > li > a {
+  padding: 10px 30px 10px 20px;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #192537;
+}
+
+/* line 105, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu > li:last-child > ul {
+  left: auto;
+  /* reset the default positioning */
+  right: 0;
+}
+
+/* line 111, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu > li {
+  float: left;
+}
+
+/* line 114, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  display: block;
+}
+
+/* line 118, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu a {
+  display: block;
+  position: relative;
+}
+
+/* line 122, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* line 126, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.sf-menu > li:last-child > ul ul {
+  left: auto;
+  /* reset the default positioning */
+  right: 100%;
+  /* this makes the submenu fly out to the left  */
+}
+
+/* SlickNav
+================================================== */
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.3
+ * (c) 2015 Josh Cope
+ * licensed under MIT
+ */
+/* line 139, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+
+/* line 148, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em;
+}
+
+/* line 151, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu {
+  *zoom: 1;
+}
+
+/* line 154, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+
+/* line 159, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_icon {
+  float: left;
+  margin: 0.188em 0 0 0.438em;
+}
+
+/* line 163, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+
+/* line 166, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 177, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu:before {
+  content: " ";
+  display: table;
+}
+
+/* line 181, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 186, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav {
+  clear: both;
+}
+
+/* line 189, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav ul {
+  display: block;
+}
+
+/* line 192, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav li {
+  display: block;
+}
+
+/* line 195, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em;
+}
+
+/* line 199, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_item {
+  cursor: pointer;
+}
+
+/* line 202, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_item a {
+  display: inline;
+}
+
+/* line 205, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_row {
+  display: block;
+}
+
+/* line 208, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav a {
+  display: block;
+}
+
+/* line 211, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_parent-link a {
+  display: inline;
+}
+
+/* line 214, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_brand {
+  float: left;
+}
+
+/* line 217, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu {
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #172f48;
+  padding: 5px;
+}
+
+/* line 223, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu * {
+  box-sizing: border-box;
+}
+
+/* line 226, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px #000;
+}
+
+/* line 231, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+
+/* line 234, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #f8bd00;
+}
+
+/* line 243, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em;
+  list-style: none;
+  overflow: hidden;
+}
+
+/* line 251, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+/* line 257, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_row {
+  padding: 5px 10px;
+  margin: 2px 5px;
+}
+
+/* line 261, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #fff;
+}
+
+/* line 268, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 274, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #222;
+}
+
+/* line 281, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+
+/* line 284, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 288, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_nav .slicknav_parent-link a {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 292, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_brand {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 7px 12px;
+  height: 44px;
+}
+
+/* hide menu */
+/* line 302, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_nav.scss */
+.slicknav_menu {
+  display: none;
+}
+
+/* line 3, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.hero-container #hero {
+  display: none;
+}
+
+/* line 7, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.antlia-hero__section {
+  background: url("http://fmg-websites-custom.s3.amazonaws.com/alp-themes/al-antlia/images/banner.jpg") no-repeat center center;
+}
+
+/* line 11, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner {
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+/* line 15, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner div:first-child {
+  padding-left: 4em;
+}
+/* line 22, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner h1 {
+  font-family: "PT Serif Caption", PTSerif, serif;
+  color: #fff;
+  font-size: 57px;
+  line-height: 61px;
+  text-transform: none;
+}
+/* line 29, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner p {
+  color: #fff;
+}
+/* line 33, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner .photo figure {
+  position: relative;
+}
+/* line 35, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner .photo figure img {
+  border-left: 60px solid #192537;
+  border-right: 60px solid #192537;
+}
+/* line 39, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner .photo figure figcaption {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  top: 60px;
+  left: 0;
+  background: #fff;
+  padding: 5px 40px;
+  border-right: 10px solid #f8bd00;
+}
+/* line 47, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner .photo figure figcaption h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin: 5px 0;
+  color: #08375c;
+}
+/* line 54, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_banner.scss */
+.banner .photo figure figcaption a {
+  color: #037dab;
+}
+
+/* line 2, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.homepage #content section.main.home-content {
+  background: #037dab;
+  color: #fff;
+}
+
+/* line 6, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.main.home-content {
+  padding-bottom: 100px;
+  background: #037dab;
+  color: #fff;
+}
+/* line 10, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.main.home-content h3, .main.home-content h4, .main.home-content h5, .main.home-content h6 {
+  color: #f8bd00;
+}
+/* line 13, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.main.home-content p {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* line 23, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels {
+  background: none;
+  padding: 0;
+}
+/* line 27, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels div[class^="col-"] {
+  height: 124px;
+  display: table-cell;
+}
+/* line 30, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels div[class^="col-"] h1, .panels div[class^="col-"] h2, .panels div[class^="col-"] h3,
+.panels div[class^="col-"] h4, .panels div[class^="col-"] h5, .panels div[class^="col-"] h6 {
+  font-family: "Lato", sans-serif;
+}
+/* line 34, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels div[class^="col-"] h2 {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  margin-top: 10px;
+  margin-top: 0.625rem;
+}
+/* line 39, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .row {
+  display: table;
+  border-bottom: 2px solid #037dab;
+  padding: 0;
+}
+/* line 52, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .row .col-sm-4,
+.panels .row .col-sm-8 {
+  display: table-cell;
+}
+/* line 56, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .row .col-sm-4,
+.panels .row .col-md-4 {
+  padding: 0;
+  overflow: hidden;
+}
+/* line 60, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .row .col-sm-4 img,
+.panels .row .col-md-4 img {
+  object-fit: cover;
+}
+/* line 65, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .txt {
+  background: #fff;
+  color: #373737;
+}
+/* line 68, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.panels .txt p {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* line 74, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured {
+  background: #f5f6f7;
+  padding-bottom: 25px;
+}
+/* line 77, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured .featured-cols > .col-md-4 {
+  padding-bottom: 10px;
+}
+/* line 79, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured .featured-cols > .col-md-4:hover {
+  background: white;
+}
+/* line 84, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured .featured-cols:not(:last-child):after {
+  content: ' ';
+  display: block;
+  height: 1px;
+  width: 98%;
+  padding-top: 27px;
+  border-bottom: 1px solid #373737;
+  margin: 20px auto;
+}
+/* line 94, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured h1, .featured h2, .featured h3,
+.featured h4, .featured h5, .featured h6 {
+  color: #376992;
+  font-family: "Lato", sans-serif;
+}
+/* line 99, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.featured h3 > i.fa {
+  display: block;
+  font-size: 36px;
+  color: #1a9ecf;
+  margin-bottom: 3px;
+}
+
+/* line 106, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.no-gutters > text {
+  padding: 10px 60px 50px;
+}
+
+/* line 109, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.learn-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 114, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.learn-more ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  color: #fff;
+  list-item-style: none;
+}
+/* line 62, ../../../../pat.brady/AppData/Local/io/app-6.0.10/resources/extensions/ruby-sass.asar.unpacked/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.learn-more ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 49, ../../../../pat.brady/AppData/Local/io/app-6.0.10/resources/extensions/ruby-sass.asar.unpacked/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.learn-more ul li:first-child {
+  padding-left: 0;
+}
+/* line 50, ../../../../pat.brady/AppData/Local/io/app-6.0.10/resources/extensions/ruby-sass.asar.unpacked/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.learn-more ul li:last-child {
+  padding-right: 0;
+}
+/* line 52, ../../../../pat.brady/AppData/Local/io/app-6.0.10/resources/extensions/ruby-sass.asar.unpacked/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.learn-more ul li.last {
+  padding-right: 0;
+}
+/* line 118, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.learn-more ul li {
+  background: #cce1f1;
+  padding: 20px;
+}
+/* line 121, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.learn-more ul li i {
+  background: #dcdedf;
+  border-right: 2px solid #fff;
+}
+/* line 125, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.learn-more ul li a {
+  display: inline-block;
+  color: #fff;
+}
+
+/* line 134, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_pages.scss */
+.inside-banner {
+  height: 270px;
+  background: #06142b url(../img/header-inside@1x.png) no-repeat left top;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+/* line 2, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+.divider {
+  height: 232px;
+  background: #06142b url(http://fmg-websites-custom.s3.amazonaws.com/alp-themes/al-antlia/images/divider%401x.png) no-repeat left top;
+  margin-bottom: 0;
+}
+
+/* line 8, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container footer {
+  background: #172f48;
+  color: #d2d1d1;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding-bottom: 30px;
+}
+/* line 14, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container footer .socialMedia a {
+  color: #fff;
+  font-size: 31px !important;
+}
+/* line 18, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container footer .socialMedia a.facebook, div.footer-container footer .socialMedia a.twitter, div.footer-container footer .socialMedia a.linkedin {
+  background: none;
+}
+/* line 28, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container a {
+  color: #f8bd00;
+}
+/* line 32, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container .soc a {
+  color: #d2d1d1;
+  font-size: 31px;
+  font-size: 1.9375rem;
+  padding-right: 10px;
+}
+/* line 36, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+div.footer-container .soc a:hover {
+  color: #fff;
+}
+
+/* line 43, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+address .address1,
+address .address2 {
+  display: block;
+}
+/* line 47, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+address .address-comma {
+  display: none;
+}
+
+/* line 51, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_footer.scss */
+.footer-fax {
+  display: block;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+/* Very Wide Screens - Apple Cinema Displays */
+@media only screen and (min-width: 2000px) {
+  /* line 8, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .hero {
+    background-size: cover;
+  }
+
+  /* line 11, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .divider {
+    background-size: cover;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* line 19, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  nav .sf-menu {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 21, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  nav .sf-menu > li > a {
+    padding: 15px 30px;
+  }
+
+  /* line 25, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .inside-banner {
+    height: 200px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* line 32, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .sf-menu {
+    display: none;
+  }
+
+  /* line 33, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .slicknav_menu {
+    display: block;
+  }
+
+  /* line 34, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .inside-banner {
+    height: 190px;
+  }
+
+  /* line 39, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner div:first-child {
+    padding-left: 3em;
+  }
+  /* line 42, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner > div {
+    padding-right: 3em;
+  }
+  /* line 45, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner p {
+    font-size: 16px;
+  }
+
+  /* line 51, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .main.home-content .intro {
+    padding-bottom: 2em;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 60, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .header .header-btn:first-child {
+    margin-bottom: 10px;
+  }
+
+  /* line 64, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .inside-banner {
+    height: 180px;
+  }
+
+  /* line 68, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner h1 {
+    font-size: 48px;
+  }
+
+  /* line 73, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  h1:not(.welcome)::after {
+    margin-bottom: 30px;
+  }
+
+  /* line 77, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .panels div[class^="col-"] {
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 739px) {
+  /* line 82, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .header-btn {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 672px) {
+  /* line 88, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  a.btn.header-btn {
+    margin-bottom: 10px;
+  }
+
+  /* line 98, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner h1 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  /* line 102, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner .photo {
+    margin-top: 40px;
+  }
+  /* line 105, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner .photo figure figcaption {
+    top: auto;
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 520px) {
+  /* line 113, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .header .row {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  /* line 116, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .inside-banner {
+    height: 170px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* line 122, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  h1:not(.welcome) {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 46px;
+    line-height: 2.875rem;
+  }
+  /* line 123, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  h1:not(.welcome)::after {
+    margin: 40px auto 40px;
+  }
+
+  /* line 130, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner div:first-child {
+    padding-left: 15px;
+  }
+  /* line 133, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner > div {
+    padding-right: 15px;
+  }
+  /* line 137, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  /* line 142, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .banner .photo figure figcaption p {
+    display: none;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 380px) {
+  /* line 152, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .header .header-btn {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  /* line 158, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .header .header-btn:last-child {
+    margin-bottom: 30px;
+  }
+
+  /* line 166, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .panels .row .col-sm-4 {
+    display: none;
+  }
+  /* line 169, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .panels .row .col-sm-8 {
+    display: block;
+  }
+  /* line 174, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_responsive.scss */
+  .panels .txt {
+    margin-top: 28px;
+  }
+}
+/* Custom, iPhone Retina */
+/**
+ * { Blog Design } *
+ */
+/* line 5, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+h1#ctl00_PageContent_ctl00_ContentTitle {
+  font-size: 46px;
+  font-family: "PT Serif Caption", PTSerif, serif;
+  color: #376992;
+  line-height: 1.109;
+}
+
+/* line 13, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div.blog-header {
+  background: transparent;
+  border-bottom: none;
+  color: #376992;
+  font-size: 26px;
+  font-family: "PT Serif Caption", PTSerif, serif;
+  text-transform: uppercase;
+  padding-left: 0px;
+}
+
+/* line 23, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+#ctl00_PageContent_ctl00_ctl00_uxBlogPostHeaderWrapper p,
+div.blog-post-teaser {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #787878;
+}
+
+/* line 30, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div.blog-post-header {
+  font-size: 16px;
+  font-family: "Roboto" sans-serif;
+  color: #1a9ecf;
+}
+
+/* line 36, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div.blog-post-head h3 {
+  font-size: 24px;
+  font-family: "PT Serif Caption", PTSerif, serif;
+  color: #376992;
+  background: transparent;
+  border-bottom: none;
+}
+
+/* line 44, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div.blog-post-teaser {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  border-bottom: 1px solid #f5f6f7;
+  padding-bottom: 20px;
+}
+
+/* line 52, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.blog-post-teaser .timestamp {
+  font-size: 16px;
+  color: #1a9ecf;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+/* line 59, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.blog-post-teaser .btn.readmore {
+  background-color: #1a9ecf;
+  color: #fff;
+  padding: 8px 32px;
+  text-transform: uppercase;
+}
+
+/* line 66, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.blog-post-teaser .btn.readmore:hover,
+.blog-post-teaser .btn.readmore:active,
+div#subscribe:hover,
+div#subscribe:active,
+a.blog-rss:hover,
+a.blog-rss:active {
+  opacity: 0.6;
+}
+
+/* line 75, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+a.blog-return-main {
+  background: #1a9ecf;
+  border-color: #1a9ecf;
+}
+
+/* line 80, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+a.blog-return-main:hover,
+a.blog-return-main:active {
+  opacity: 0.6;
+  background: #1a9ecf;
+  border-color: #1a9ecf;
+}
+
+/* line 88, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+nav {
+  background-color: transparent;
+}
+
+/* line 92, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div#subscribeForm,
+div#ctl00_PageContent_ctl00_ctl00_uxBlogRecentWrapper,
+div#ctl00_PageContent_ctl00_ctl00_uxBlogCategoriesWrapper {
+  background: #204768;
+}
+
+/* line 98, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+#subscribeForm .well {
+  margin-bottom: 0px;
+  border-bottom: none;
+  border-radius: 0px;
+  background: #f5f6f7;
+  padding-bottom: 60px;
+}
+
+/* line 106, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+#subscribeForm h4, li.nav-header {
+  color: #376992;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+/* line 112, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+#subscribeForm input {
+  border-radius: 0px;
+  border-color: #1a9ecf;
+  margin-bottom: 10px;
+}
+
+/* line 118, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div#subscribe {
+  background: #1a9ecf;
+  border-color: #1a9ecf;
+  text-transform: uppercase;
+  border-radius: 0px;
+  width: 100%;
+}
+
+/* line 126, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+ul.nav-tabs {
+  border-bottom: none;
+  background-color: #f5f6f7;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+/* line 134, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+ul.nav-tabs li:not(:first-child) {
+  border: 1px solid #1a9ecf;
+  margin-top: 0px;
+  background: #fff;
+}
+
+/* line 140, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+ul.nav-tabs li a {
+  color: #333333;
+}
+
+/* line 144, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+ul.nav-tabs li a:hover {
+  background: #f8bd00;
+}
+
+/* line 148, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.nav-tabs > li > a {
+  border: none;
+  border-radius: 0px;
+  margin-right: 0px;
+}
+
+/* line 154, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+div#ctl00_PageContent_ctl00_ctl00_uxBlogRSSWrapper {
+  background: #f5f6f7;
+  border-right: 15px solid #204768;
+  border-left: 15px solid #204768;
+  padding-bottom: 20px;
+}
+
+/* line 161, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+a.blog-rss {
+  color: #376992;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* line 168, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+#ctl00_PageContent_ctl00_ctl00_uxBlogRSSWrapper a:after {
+  content: "\f09e";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  float: right;
+  font-size: 32px;
+  margin-top: -5px;
+  color: #1a9ecf;
+}
+
+/* line 179, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 5px;
+}
+
+/* line 191, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination li {
+  padding: 0;
+  margin: 0 5px 0 0;
+  border-bottom: none;
+  font-size: 14px;
+  display: inline-block;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 202, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus,
+.pagination > li > a,
+.pagination > li > span {
+  background-color: #f5f6f7;
+}
+
+/* line 213, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #1a9ecf;
+  color: #fff;
+}
+
+/* line 221, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination > li > a,
+.pagination > li > span {
+  color: #1a9ecf;
+}
+
+/* line 226, ../../../../pat.brady/FMG-Site-Builds/al-antlia/sass/partials/_blog.scss */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #376992;
+  border-color: #376992;
+}
+
+
+
+/*# sourceMappingURL=alp-antlia.css.map */

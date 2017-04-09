@@ -1,0 +1,1 @@
+﻿{"theme":{"title":"Antlia","description":"Responsive Theme","framework":"bootstrap3","responsive":"true","author":"Smarsh","sourceUrl":"http://www.smarsh.com","version":"1.0","date":"09-24-2014", "type":"Smarsh"}}
